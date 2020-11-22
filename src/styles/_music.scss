@@ -1,49 +1,62 @@
 .main--container {
-    display: flex;
-    flex-flow: row wrap;
-    width: 100%;
-    height: 100%;
-    background: #161616;
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  height: 100%;
+  color: #ffffff;
+  background: #161616;
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .album--card {
-    width: 40%;
-    height: 900px;
-    margin: 4% 4% 0% 5%;
-    border: 4px solid #0d449b;
+  width: 40%;
+  height: 900px;
+  margin: 4% 4% 0% 5%;
+  border: 4px solid #0d449b;
 }
 
 .album--image {
-    width: 100%;
-    border-bottom: 4px solid #0d449b;
+  width: 100%;
+  border-bottom: 4px solid #0d449b;
 }
 
 .album--title {
-    color: #ffffff;
-    font-style: italic;
-    font-weight: lighter;
-    text-align: center;
+  color: #ffffff;
+  font-style: italic;
+  font-weight: lighter;
+  text-align: center;
 }
 
 .album--artist {
-    color: #ffffff;
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: .75rem;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.75rem;
 }
 
 .album--links {
-    display: flex;
-    margin: auto;
-    width: 40%;
+  display: flex;
+  margin: auto;
+  width: 40%;
 }
 
 .album--links a {
-    color: white;
-    margin: auto;
-    font-size: 20px;
+  color: white;
+  margin: auto;
+  font-size: 20px;
 }
 
 .album--links a:hover {
-    color: #0d449b;
+  color: #0d449b;
 }

@@ -1,48 +1,41 @@
-.main--container {
-    display: flex;
-    flex-flow: row wrap;
-    background: #161616;
-    color: white;
-}
-
 .project--card {
-    display: flex;
-    margin: 2% 5%;
-    border: 2px solid #0d449b;
+  display: flex;
+  margin: 2% 5%;
+  border: 2px solid #0d449b;
 }
 
 .project--card:first-of-type {
-    margin-top: 4%;
+  margin-top: 4%;
 }
 
 .project--image {
-    width: 40%;
-    border-right: 2px solid #0d449b;
-    margin: 0;
+  width: 40%;
+  border-right: 2px solid #0d449b;
+  margin: 0;
 }
 
 .project--details {
-    width: 100%;
-    margin: auto 5% auto 5%;
+  width: 100%;
+  margin: auto 5% auto 5%;
 }
 
 .project--details-title {
-    font-size: 40px;
-    margin-bottom: 10px;
+  font-size: 40px;
+  margin-bottom: 10px;
 }
 
 .project--details-technologies {
-    font-weight: lighter;
-    font-size: 18px;
-    font-style: italic;
+  font-weight: lighter;
+  font-size: 18px;
+  font-style: italic;
 }
 
 .project--details-link {
-    color: white;
-    font-size: 25px;
-    margin: 10px 25px 10px 1px;
+  color: white;
+  font-size: 25px;
+  margin: 10px 25px 10px 1px;
 }
 
 .project--details-link:hover {
-    color: #0d449b;
+  color: #0d449b;
 }

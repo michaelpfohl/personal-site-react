@@ -9,6 +9,12 @@
 @import './music';
 @import './podcasts';
 
+@font-face {
+  font-family: 'Livvic-SemiBold';
+  font-style: normal;
+  src: url(../assets/fonts/livvic/Livvic-SemiBold.ttf);
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -16,4 +22,20 @@ html {
 body {
   margin: 0;
   font-family: "Raleway", sans-serif;
+  background: #161616;
 }
+
+.App {
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1; 
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation { 
+  0% { 
+      opacity: 0; 
+  } 
+  100% { 
+      opacity: 1; 
+   } 
+} 
