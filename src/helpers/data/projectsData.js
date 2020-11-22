@@ -1,5 +1,3 @@
-// import image from '../../../public/projects/sorting-hat.gif'
-
 const imgPath = '../../../public/assets/images/projects';
 
 const projects = [
