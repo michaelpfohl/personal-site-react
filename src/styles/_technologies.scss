@@ -12,6 +12,7 @@
 }
 
 .tech--header {
+    font-family: 'Livvic-SemiBold';
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
@@ -23,10 +24,15 @@
 }
 
 .tech--list {
-    display: flex;
     list-style-type: none;
     justify-content: space-around;
-    margin-top: 5%;
+    margin-top: 3%;
     color: #ffffff;
     font-size: 32px;
+}
+
+.tech--list-container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1%;
 }

@@ -9,6 +9,12 @@
 @import './music';
 @import './podcasts';
 
+@font-face {
+  font-family: 'Livvic-SemiBold';
+  font-style: normal;
+  src: url(../assets/fonts/livvic/Livvic-SemiBold.ttf);
+}
+
 html {
   scroll-behavior: smooth;
 }
