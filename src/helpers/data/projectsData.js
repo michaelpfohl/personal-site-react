@@ -1,7 +1,9 @@
+const imgPath = '../../../public/assets/images/projects';
+
 const projects = [
   {
     title: 'Sorting Hat',
-    screenshot: 'project-images/sorting-hat.gif',
+    screenshot: `${imgPath}/sorting-hat.gif`,
     description:
       'Single page application that accepts a students name and randomly assigns them a house from Hogwarts. Each  student card is provided a background color according to the house and has an expel button which will remove the card from the page.',
     technologiesUsed:
@@ -12,7 +14,7 @@ const projects = [
   },
   {
     title: 'Color Flipper',
-    screenshot: 'project-images/color-flipper.gif',
+    screenshot: 'https://photos.app.goo.gl/85ycw3TXJq5gLa226',
     description:
       'Single page application that allows a user to generate a random color from a pre-generated array of simple colors or a truly random color with a random hex code. Background and logo color change according to color selected.',
     technologiesUsed: 'HTML / CSS / JavaScript / Version Control with Github',
