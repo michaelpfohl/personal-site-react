@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
-import navBackground from '../../assets/images/main/main-background.png';
+// import navBackground from '../../assets/images/main/main-background.png';
 
 class Navbar extends Component {
   state = {};
@@ -9,25 +9,24 @@ class Navbar extends Component {
   render() {
     return (
       <>
-      <nav style={{ background: navBackground }}>
+      <nav id="nav">
         <h1 class="name--header">
           <Link to="/">Michael·Pfohl</Link>
         </h1>
         <ul class="nav--links" id="nav--links">
           <li>
-            <Link to="/" href="#bio--page" class="nav--bio" id="nav--bio">
+            <a href="#bio--page" class="nav--bio" id="nav--bio">
               Bio
-            </Link>
+            </a>
           </li>
           <li>
-            <Link
-              to="/"
+            <a
               href="#tech--page"
               class="nav--technologies"
               id="nav--technologies"
             >
               Technologies
-            </Link>
+            </a>
           </li>
           <li>
             <Link to='/projects' className="nav--projects" id="nav--projects">
