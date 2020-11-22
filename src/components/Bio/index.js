@@ -7,7 +7,7 @@ class Bio extends Component {
 
   render() {
     return (
-      <>
+      <div class="bio--background-fade">
         <div class="bio--page" id="bio--page">
           <img class="bio--pic" src={bioPic} alt="Michael Pfohl" />
           <div class="bio--details">
@@ -18,7 +18,7 @@ class Bio extends Component {
               I started 2020 with a resolution to be more intentional in my life. My first step in that direction came after reading the book Atomic Habits by James Clear.
               </li>
               <li>
-              I began to keep an intentional journal of all of the habits I wanted to encourage. This process of incremental positive change emboldened me to make the decision to pursue web development.
+              I began to keep an intention journal of all of the habits I wanted to encourage. This process of incremental positive change emboldened me to make the decision to pursue web development.
               </li>
               <li>
               I began by working my way through different Udemy courses and talking with the software engineers at my job. After seeing how much I loved the work and how well suited I was for it I decided to take the leap and attend Nashville Software School beginning in July of 2020.
@@ -87,7 +87,7 @@ class Bio extends Component {
           </div>
         </div>
         <div class="full--page" id="projects--page"></div>
-      </>
+      </div>
     );
   }
 }
