@@ -1,0 +1,62 @@
+.podcast--main {
+    background: #161616;
+    margin: 0;
+}
+
+.podcast--container {
+    display: flex;
+}
+
+.podcast--image {
+    border: 4px solid #0d449b;
+    width: 30%;
+    margin: 2% 2% 0 5%;
+}
+
+.podcast--details {
+    background: linear-gradient(to bottom, #0d449b, #161616);
+    width: 65%;
+    margin: 2% 0 0 0;
+}
+
+.podcast--details-header {
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 50px;
+    letter-spacing: 1rem;
+    color: #ffffff;
+    margin-bottom: 10px;
+    margin-right: 1%;
+}
+
+.podcast--details-bar {
+    height: .75%;
+    width: 80%;
+    background: #ffffff;
+    float: right; 
+}
+
+.podcast--details-basic {
+    font-size: 30px;
+    color: #ffffff;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    line-height: 1.5;
+    list-style-type: square;
+}
+
+.podcast--links {
+    display: flex;
+    margin: auto;
+    width: 50%;
+}
+
+.podcast--links a {
+    color: #ffffff;
+    margin: auto;
+    font-size: 40px;
+}
+
+.podcast--links a:hover {
+    color: #0d449b;
+}
