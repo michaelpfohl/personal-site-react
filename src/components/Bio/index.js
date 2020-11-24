@@ -1,6 +1,15 @@
 import React, { Component } from 'react';
 
 import bioPic from '../../assets/images/main/bio-pic.jpg';
+import moon1 from '../../assets/images/main/moon.1.png';
+import moon2 from '../../assets/images/main/moon.2.png';
+import moon3 from '../../assets/images/main/moon.3.png';
+import moon4 from '../../assets/images/main/moon.4.png';
+import moon5 from '../../assets/images/main/moon.5.png';
+import moon6 from '../../assets/images/main/moon.6.png';
+import moon7 from '../../assets/images/main/moon.7.png';
+import moon8 from '../../assets/images/main/moon.8.png';
+import moon9 from '../../assets/images/main/moon.9.png';
 
 class Bio extends Component {
   state = {};
@@ -47,6 +56,17 @@ class Bio extends Component {
             </ul>
           </div>
         </div>
+        <div class="moon-container">
+          <img alt="moon1" src={moon1}/>
+          <img alt="moon3" src={moon3}/>
+          <img alt="moon4" src={moon4}/>
+          <img alt="moon9" src={moon9}/>
+          <img alt="moon7" src={moon7}/>
+          <img alt="moon6" src={moon6}/>
+          <img alt="moon5" src={moon5}/>
+          <img alt="moon8" src={moon8}/>
+          <img alt="moon2" src={moon2}/>
+        </div>
         <div class="tech--page" id="tech--page">
           <div class="tech--overlay">
             <h1 class="tech--header">
@@ -75,9 +95,9 @@ class Bio extends Component {
               </div>
             </ul>
           </div>
-        </div>
         <div class="full--page" id="projects--page"></div>
       </div>
+    </div>
     );
   }
 }

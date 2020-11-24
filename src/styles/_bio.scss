@@ -1,7 +1,7 @@
 .bio--page {
   display: flex;
   background: #161616;
-  font-family: 'Helvetica';
+  font-family: 'Livvic-SemiBold';
   animation: fadeInAnimation ease 3s;
   animation-iteration-count: 1; 
   animation-fill-mode: forwards;
@@ -107,4 +107,18 @@
   line-height: 1.5;
   text-align: left;
   list-style-type: square;
+}
+
+.moon-container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 5%;
+  opacity: 90%;
+}
+
+.moon-container img {
+  height: 6rem;
+  padding: 10px;
+  border: 6px dotted #0d449b;
+  border-radius: 3.5rem; 
 }
