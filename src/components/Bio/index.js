@@ -14,24 +14,12 @@ class Bio extends Component {
             <h1 class="bio--details-header">·About Me</h1>
             <div class="bio--details-bar"></div>
             <ul class="bio--details-basic">
-              <li>
-              I started 2020 with a resolution to be more intentional in my life. My first step in that direction came after reading the book Atomic Habits by James Clear.
-              </li>
-              <li>
-              I began to keep an intention journal of all of the habits I wanted to encourage. This process of incremental positive change emboldened me to make the decision to pursue web development.
-              </li>
-              <li>
-              I began by working my way through different Udemy courses and talking with the software engineers at my job. After seeing how much I loved the work and how well suited I was for it I decided to take the leap and attend Nashville Software School beginning in July of 2020.
-              </li>
-              <li>
-              Without a doubt, that decision has had a bigger impact on my life than any other. While learning practical skills is a wonderful thing, the thing that I am most grateful for is the total perspective shift that coding has given me.
-              </li>
-              <li>
-              At times, it seems like magic but when you peel back the layers you see that there are systems that interlace all of this knowledge, and yet that revelation does not make the process any less magical.
-              </li>
-              <li>
-              I am overjoyed to have finally found something that I am so passionate about and that I enjoy as much as coding. I hope that wherever I end up landing my first dev job can help me foster that feeling and push me to grow in new ways.
-              </li>
+              <p>
+              I started 2020 with a resolution to be more intentional in my life. My first step in that direction came after reading the book Atomic Habits by James Clear.  I began to keep an intention journal of all of the habits I wanted to encourage. This process of incremental positive change emboldened me to make the decision to pursue web development. I began by working my way through different Udemy courses and talking with the software engineers at my job.</p>
+              <p>After seeing how much I loved the work and how well suited I was for it I decided to take the leap and attend Nashville Software School beginning in July of 2020. Without a doubt, that decision has had a bigger impact on my life than any other. While learning practical skills is a wonderful thing, the thing that I am most grateful for is the total perspective shift that coding has given me.
+              At times, it seems like magic but when you peel back the layers you see that there are systems that interlace all of this knowledge, and yet that revelation does not make the process any less magical.</p>
+              <p>I am overjoyed to have finally found something that I am so passionate about and that I enjoy as much as coding. I hope that wherever I end up landing my first dev job can help me foster that feeling and push me to grow in new ways.
+              </p>
             </ul>
             <h1 class="bio--details-header2">Education·</h1>
             <div class="bio--details-bar2"></div>
