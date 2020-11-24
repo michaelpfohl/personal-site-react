@@ -1,3 +1,4 @@
+/* eslint-disable global-require */
 import React, { Component } from 'react';
 
 class Project extends Component {
@@ -9,7 +10,7 @@ class Project extends Component {
           src={project.screenshot}
           alt={project.title}
           className="project--image"
-        ></img>
+        />
         <div className="project--details">
           <h1 className="project--details-title">{project.title}</h1>
           <p className="project--details-description">{project.description}</p>

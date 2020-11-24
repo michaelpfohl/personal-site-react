@@ -24,6 +24,11 @@
   height: 900px;
   margin: 4% 4% 0% 5%;
   border: 4px solid #0d449b;
+  transition: all 0.45s ease-in-out;
+}
+
+.album--card:hover {
+  transform: scale(1.02);
 }
 
 .album--image {

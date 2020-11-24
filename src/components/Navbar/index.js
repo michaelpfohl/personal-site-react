@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 // import navBackground from '../../assets/images/main/main-background.png';
 
@@ -15,11 +16,14 @@ class Navbar extends Component {
         </h1>
         <ul class="nav--links" id="nav--links">
           <li>
-            <a href="#bio--page" class="nav--bio" id="nav--bio">
-              Bio
-            </a>
+            <HashLink to="/#bio--page">
+              <a href="#bio--page" class="nav--bio" id="nav--bio">
+                Bio
+              </a>
+            </HashLink>
           </li>
           <li>
+            <HashLink to="/#tech--page">
             <a
               href="#tech--page"
               class="nav--technologies"
@@ -27,6 +31,7 @@ class Navbar extends Component {
             >
               Technologies
             </a>
+            </HashLink>
           </li>
           <li>
             <Link to='/projects' className="nav--projects" id="nav--projects">
