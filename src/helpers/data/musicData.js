@@ -1,6 +1,6 @@
 const music = [
   {
-    image: 'src/assets/images/album/YSHBMF.jpg',
+    image: 'https://i.postimg.cc/kgHxqTNM/YSHBMF.jpg',
     imageAlt: 'You Should Have Bought More Flowers - Secret Stuff',
     albumTitle: 'You Should Have Bought More Flowers',
     albumArtist: 'Secret Stuff · 2020',
@@ -12,7 +12,7 @@ const music = [
       'https://secretstuffemo.bandcamp.com/album/you-should-have-bought-more-flowers',
   },
   {
-    image: 'src/assets/images/album/2828.jpg',
+    image: 'https://i.postimg.cc/MpHyCCQr/2828.jpg',
     imageAlt: '2828 - Secret Stuff',
     albumTitle: '2828 (Feat. Square Peg Round Hole)',
     albumArtist: 'Secret Stuff · 2018',
@@ -24,7 +24,7 @@ const music = [
       'https://secretstuffemo.bandcamp.com/track/2828-featuring-square-peg-round-hole',
   },
   {
-    image: 'src/assets/images/album/sleepwalker.jpg',
+    image: 'https://i.postimg.cc/gkNVBznZ/sleepwalker.jpg',
     imageAlt: 'Sleepwalker - Low Mass',
     albumTitle: 'Sleepwalker',
     albumArtist: 'Low Mass · 2017',
@@ -34,7 +34,7 @@ const music = [
     bandcampLink: 'https://lowmasstheband.bandcamp.com/album/sleepwalker',
   },
   {
-    image: 'src/assets/images/album/split.jpg',
+    image: 'https://i.postimg.cc/C1Tkfd6W/split.jpg',
     imageAlt: 'Split w/ Sundressed - Secret Stuff',
     albumTitle: 'Split w/ Sundressed',
     albumArtist: 'Secret Stuff · 2016',
@@ -45,7 +45,7 @@ const music = [
       'https://secretstuffemo.bandcamp.com/album/secret-stuff-sundressed-split-ep',
   },
   {
-    image: 'src/assets/images/album/thisisfine.jpg',
+    image: 'https://i.postimg.cc/QMWctcSQ/thisisfine.jpg',
     imageAlt: 'This Is Fine - Secret Stuff',
     albumTitle: 'This Is Fine',
     albumArtist: 'Secret Stuff · 2016',
@@ -55,7 +55,7 @@ const music = [
     bandcampLink: 'https://secretstuffemo.bandcamp.com/album/this-is-fine',
   },
   {
-    image: 'src/assets/images/album/learningnottocare.jpg',
+    image: 'https://i.postimg.cc/hPS8rzPn/learningnottocare.jpg',
     imageAlt: 'Learning Not To Care - Secret Stuff',
     albumTitle: 'Learning Not To Care',
     albumArtist: 'Secret Stuff · 2014',

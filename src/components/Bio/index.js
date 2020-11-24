@@ -76,12 +76,14 @@ class Bio extends Component {
                 <li>jQuery</li>
                 <li>Firebase</li>
                 <li>axios</li>
+                <li>Bootstrap <i class="fab fa-bootstrap"></i></li>
                 <li>Netlify</li>
-                <li>Figma <i class="fab fa-figma"></i></li>
               </div>
               <div class="tech--list-container">
+                <li>Figma <i class="fab fa-figma"></i></li>
                 <li>LucidChart</li>
                 <li>Mockaroo</li>
+                <li>npm <i class="fab fa-npm"></i></li>
               </div>
             </ul>
           </div>

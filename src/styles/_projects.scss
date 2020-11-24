@@ -1,7 +1,19 @@
+.main--container {
+  display: flex;
+  flex-flow: row wrap;
+  background: #161616;
+  color: white;
+}
+
 .project--card {
   display: flex;
   margin: 2% 5%;
   border: 2px solid #0d449b;
+  transition: all 0.45s ease-in-out;
+}
+
+.project--card:hover {
+  transform: scale(1.03);
 }
 
 .project--card:first-of-type {
