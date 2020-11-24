@@ -56,7 +56,7 @@ class Bio extends Component {
             </ul>
           </div>
         </div>
-        <div class="moon-container">
+        <div class="moon--container">
           <img alt="moon1" src={moon1}/>
           <img alt="moon3" src={moon3}/>
           <img alt="moon4" src={moon4}/>

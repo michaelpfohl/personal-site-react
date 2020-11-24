@@ -109,22 +109,22 @@
   list-style-type: square;
 }
 
-.moon-container {
+.moon--container {
   display: flex;
   justify-content: space-around;
   margin-bottom: 5%;
 }
 
-.moon-container img {
+.moon--container img {
   height: 6rem;
   padding: 10px;
   border: 6px dotted #0d449b;
   border-radius: 3.5rem;
-  opacity: 0.9;
+  opacity: 1;
 }
 
-.moon-container img:hover {
-  opacity: 0;
+.moon--container img:hover {
+  opacity: 0.05;
   transition: opacity 1s ease-in-out;
   -moz-transition: opacity 1s ease-in-out;
   -webkit-transition: opacity 1s ease-in-out;
