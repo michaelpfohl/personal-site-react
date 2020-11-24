@@ -113,12 +113,19 @@
   display: flex;
   justify-content: space-around;
   margin-bottom: 5%;
-  opacity: 90%;
 }
 
 .moon-container img {
   height: 6rem;
   padding: 10px;
   border: 6px dotted #0d449b;
-  border-radius: 3.5rem; 
+  border-radius: 3.5rem;
+  opacity: 0.9;
+}
+
+.moon-container img:hover {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -webkit-transition: opacity 1s ease-in-out;
 }
