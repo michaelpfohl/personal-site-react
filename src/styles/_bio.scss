@@ -3,20 +3,20 @@
   background: #161616;
   font-family: 'Livvic-SemiBold';
   animation: fadeInAnimation ease 3s;
-  animation-iteration-count: 1; 
+  animation-iteration-count: 1;
   animation-fill-mode: forwards;
-  font-size: .98rem;
-  letter-spacing: .6px;
+  font-size: 0.98rem;
+  letter-spacing: 0.6px;
 }
 
-@keyframes fadeInAnimation { 
-  0% { 
-      opacity: 0; 
-  } 
-  100% { 
-      opacity: 1; 
-   } 
-} 
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 
 .bio--pic {
   width: 40%;
@@ -120,12 +120,41 @@
   padding: 10px;
   border: 6px dotted #0d449b;
   border-radius: 3.5rem;
-  opacity: 1;
+}
+
+.forward {
+  animation-name: forward;
+  animation-duration: 180s;
+  animation-iteration-count: infinite;
+}
+
+.reverse {
+  animation-name: reverse;
+  animation-duration: 180s;
+  animation-iteration-count: infinite;
 }
 
 .moon--container img:hover {
-  opacity: 0.05;
+  opacity: 0;
   transition: opacity 1s ease-in-out;
   -moz-transition: opacity 1s ease-in-out;
   -webkit-transition: opacity 1s ease-in-out;
+}
+
+@keyframes forward {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes reverse {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
 }

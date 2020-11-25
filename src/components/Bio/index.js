@@ -57,15 +57,15 @@ class Bio extends Component {
           </div>
         </div>
         <div class="moon--container">
-          <img alt="moon1" src={moon1}/>
-          <img alt="moon3" src={moon3}/>
-          <img alt="moon4" src={moon4}/>
-          <img alt="moon9" src={moon9}/>
-          <img alt="moon7" src={moon7}/>
-          <img alt="moon6" src={moon6}/>
-          <img alt="moon5" src={moon5}/>
-          <img alt="moon8" src={moon8}/>
-          <img alt="moon2" src={moon2}/>
+          <img alt="moon1" class="forward" src={moon1}/>
+          <img alt="moon3" class="reverse" src={moon3}/>
+          <img alt="moon4" class="forward" src={moon4}/>
+          <img alt="moon9" class="reverse" src={moon9}/>
+          <img alt="moon7" class="forward" src={moon7}/>
+          <img alt="moon6" class="reverse" src={moon6}/>
+          <img alt="moon5" class="forward" src={moon5}/>
+          <img alt="moon8" class="reverse" src={moon8}/>
+          <img alt="moon2" class="forward" src={moon2}/>
         </div>
         <div class="tech--page" id="tech--page">
           <div class="tech--overlay">
