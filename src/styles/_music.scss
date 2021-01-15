@@ -21,7 +21,6 @@
 
 .album--card {
   width: 40%;
-  height: 900px;
   margin: 4% 4% 0% 5%;
   border: 4px solid #0d449b;
   transition: all 0.45s ease-in-out;
@@ -37,7 +36,9 @@
 }
 
 .album--title {
+  margin-top: 2.5%;
   color: #ffffff;
+  font-size: 35px;
   font-style: italic;
   font-weight: lighter;
   text-align: center;
@@ -54,6 +55,7 @@
   display: flex;
   margin: auto;
   width: 40%;
+  margin-bottom: 2.5%;
 }
 
 .album--links a {
@@ -64,4 +66,86 @@
 
 .album--links a:hover {
   color: #0d449b;
+}
+
+@media only screen and (max-width: 1610px) {
+  .album--title {
+    font-size: 30px;
+  }
+  .album--artist {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 1370px) {
+  .album--title {
+    font-size: 25px;
+  }
+  .album--artist {
+    font-size: 15px;
+  }
+  .album--links a {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 1120px) {
+  .album--card {
+    width: 80%;
+    margin: 7.5% 10% 0% 10%;
+  }
+  .album--title {
+    font-size: 35px;
+  }
+  .album--artist {
+    font-size: 30px;
+  }
+  .album--links a {
+    font-size: 20px;
+  }
+}
+
+
+@media only screen and (max-width: 790px) {
+  .album--title {
+    font-size: 30px;
+  }
+  .album--artist {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .album--title {
+    font-size: 25px;
+  }
+  .album--artist {
+    font-size: 15px;
+  }
+  .album--links a {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .album--title {
+    font-size: 20px;
+  }
+  .album--artist {
+    font-size: 11px;
+    letter-spacing: 0.65rem;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .album--title {
+    font-size: 15px;
+  }
+  .album--artist {
+    font-size: 8px;
+    letter-spacing: 0.5rem;
+  }
+  .album--links a {
+    font-size: 10px;
+  }
 }
