@@ -28,3 +28,9 @@ footer {
     margin-right: 5px;
     margin-bottom: 0px;
 }
+
+@media only screen and (max-width: 500px) {
+    .footer--container {
+        width: 50%;
+    }
+}

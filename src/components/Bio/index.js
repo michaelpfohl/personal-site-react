@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import bioPic from '../../assets/images/main/bio-pic.jpg';
+import bioPic from '../../assets/images/main/bio-pic.jpeg';
 import moon1 from '../../assets/images/main/moon.1.png';
 import moon2 from '../../assets/images/main/moon.2.png';
 import moon3 from '../../assets/images/main/moon.3.png';
@@ -23,12 +23,11 @@ class Bio extends Component {
             <h1 class="bio--details-header">·About Me</h1>
             <div class="bio--details-bar"></div>
             <ul class="bio--details-basic">
+              <p>Creative, efficient, and curious, I am completely enamored with the endless possibilities that development affords, and I am always looking for a new challenge. Coding gives me the opportunity to think in new ways and I am seeking a company that will harness my passion and grow my skills so that I can help solve unique and pressing problems.</p>
               <p>
-              I started 2020 with a resolution to be more intentional in my life. My first step in that direction came after reading the book Atomic Habits by James Clear.  I began to keep an intention journal of all of the habits I wanted to encourage. This process of incremental positive change emboldened me to make the decision to pursue web development. I began by working my way through different Udemy courses and talking with the software engineers at my job.</p>
+              I started 2020 with a resolution to be more intentional in my life. My first step in that direction came after reading the book Atomic Habits by James Clear.  I began to keep an intention journal of all of the habits I wanted to encourage. This process of incremental positive change emboldened me to make the decision to pursue software engineering. I began by working my way through different Udemy courses and talking with the software engineers at my job at Lyft.</p>
               <p>After seeing how much I loved the work and how well suited I was for it I decided to take the leap and attend Nashville Software School beginning in July of 2020. Without a doubt, that decision has had a bigger impact on my life than any other. While learning practical skills is a wonderful thing, the thing that I am most grateful for is the total perspective shift that coding has given me.
               At times, it seems like magic but when you peel back the layers you see that there are systems that interlace all of this knowledge, and yet that revelation does not make the process any less magical.</p>
-              <p>I am overjoyed to have finally found something that I am so passionate about and that I enjoy as much as coding. I hope that wherever I end up landing my first dev job can help me foster that feeling and push me to grow in new ways.
-              </p>
             </ul>
             <h1 class="bio--details-header2">Education·</h1>
             <div class="bio--details-bar2"></div>
@@ -81,14 +80,22 @@ class Bio extends Component {
                 <li>Git <i class="fab fa-git-alt"></i></li>
               </div>
               <div class="tech--list-container">
+                <li>C#</li>
+                <li>.NET Core</li>
+                <li>T-SQL</li>
                 <li>jQuery</li>
                 <li>Firebase</li>
+              </div>
+              <div class="tech--list-container">
+                <li>Postman</li>
+                <li>P5.js</li>
                 <li>axios</li>
-                <li>Bootstrap <i class="fab fa-bootstrap"></i></li>
+                <li>Bootstrap</li>
                 <li>Netlify</li>
               </div>
               <div class="tech--list-container">
-                <li>Figma <i class="fab fa-figma"></i></li>
+                <li>Jinja</li>
+                <li>Figma</li>
                 <li>LucidChart</li>
                 <li>Mockaroo</li>
                 <li>npm <i class="fab fa-npm"></i></li>

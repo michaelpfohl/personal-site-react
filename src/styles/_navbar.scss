@@ -12,7 +12,7 @@ $navBackground: url(../assets/images/main/main-background.png);
   font-family: 'Livvic-SemiBold', sans-serif;
   margin: 0;
   text-align: center;
-  padding-top: 120px;
+  padding-top: 7%;
 }
 
 .name--header a {
@@ -31,6 +31,7 @@ $navBackground: url(../assets/images/main/main-background.png);
   border-radius: 40px;
   margin: auto;
   margin-top: 1.9%;
+  margin-bottom: 7%;
   padding: 0px;
   width: 55%;
   height: 10%;
@@ -49,4 +50,22 @@ $navBackground: url(../assets/images/main/main-background.png);
 
 .nav--links a:hover {
   color: #ffffff;
+}
+
+@media only screen and (max-width: 375px) {
+  #nav {
+    height: 120px;
+  }
+
+  .name--header a {
+    font-size: 32px;
+    text-shadow: -.5px 0 #ffffff, 0 .5px #ffffff, .5px 0 #ffffff, 0 -.5px #ffffff;
+  }
+  .nav--links {
+    width: 70%;
+    height: 20%;
+  }
+  .nav--links a {
+    font-size: 10px;
+  }
 }
