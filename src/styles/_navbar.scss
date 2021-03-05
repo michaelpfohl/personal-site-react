@@ -52,7 +52,97 @@ $navBackground: url(../assets/images/main/main-background.png);
   color: #ffffff;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 1500px) {
+  #nav {
+    height: 350px;
+  }
+
+  .name--header a {
+    font-size: 100px;
+    // text-shadow: -.5px 0 #ffffff, 0 .5px #ffffff, .5px 0 #ffffff, 0 -.5px #ffffff;
+  }
+  .nav--links {
+    width: 58%;
+    height: 12%;
+  }
+  .nav--links a {
+    font-size: 21px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  #nav {
+    height: 300px;
+  }
+
+  .name--header a {
+    font-size: 85px;
+  }
+  .nav--links {
+    width: 58%;
+    height: 15%;
+  }
+  .nav--links a {
+    font-size: 19px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  #nav {
+    height: 250px;
+  }
+
+  .name--header a {
+    font-size: 70px;
+  }
+  .nav--links {
+    width: 58%;
+    height: 15%;
+  }
+  .nav--links a {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  #nav {
+    height: 220px;
+  }
+
+  .name--header a {
+    font-size: 52px;
+    text-shadow: -.75px 0 #ffffff, 0 .75px #ffffff, .75px 0 #ffffff, 0 -.75px #ffffff;
+  }
+  .nav--links {
+    width: 58%;
+    height: 15%;
+  }
+  .nav--links a {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  #nav {
+    height: 160px;
+  }
+
+  .name--header a {
+    font-size: 40px;
+    text-shadow: -.5px 0 #ffffff, 0 .5px #ffffff, .5px 0 #ffffff, 0 -.5px #ffffff;
+  }
+
+  .nav--links {
+    width: 66%;
+    height: 17%;
+  }
+
+  .nav--links a {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 415px) {
   #nav {
     height: 120px;
   }
