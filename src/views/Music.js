@@ -14,7 +14,7 @@ class Music extends Component {
 
   render() {
     const { albums } = this.state;
-    const showProjects = () => albums.map((album) => <Album album={album} />);
+    const showProjects = () => albums.map((album) => <Album album={album} key={album.albumTitle}/>);
     return <div className="main--container">{showProjects()}</div>;
   }
 }

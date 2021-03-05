@@ -16,7 +16,7 @@ class Projects extends Component {
     const { projects } = this.state;
     const publicProjects = projects.filter((project) => !project.hidden);
     const showProjects = () => (
-      publicProjects.map((project) => <Project project={project}/>)
+      publicProjects.map((project) => <Project project={project} key={project.title}/>)
     );
 
     return (
