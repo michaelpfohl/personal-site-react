@@ -42,14 +42,14 @@ $navBackground: url(../assets/images/main/main-background.png);
 }
 
 .nav--links a {
-  color: #0d449b;
+  color: #ffffff;
   text-transform: uppercase;
   text-decoration: none;
   font-size: 23px;
 }
 
 .nav--links a:hover {
-  color: #ffffff;
+  color: #0d449b;
 }
 
 @media only screen and (max-width: 1500px) {

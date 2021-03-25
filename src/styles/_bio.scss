@@ -42,6 +42,10 @@
   margin-right: 1%;
 }
 
+.bio--about-me-circle {
+  display: inline;
+}
+
 .bio--details-bar {
   height: 0.75%;
   width: 70%;
@@ -86,6 +90,10 @@
   float: right;
   direction: rtl;
   list-style-type: square;
+}
+
+.bio--education-separator {
+  display: none;
 }
 
 .bio--details-header3 {
@@ -156,5 +164,151 @@
   }
   to {
     transform: rotate(0deg);
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .bio--details-header {
+    font-size: 35px;
+  }
+
+  .bio--details-header2, .bio--details-header3 {
+    font-size: 20px;
+  }
+
+  .bio--details-header3 {
+    margin: 0 0 10px 0;
+  }
+
+  .bio--details-basic {
+    font-size: 13px;
+  }
+
+  .bio--details-education {
+    font-size: 13px;
+  }
+
+  .bio--details-job {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .bio--pic {
+    display: none;
+  }
+  .bio--details {
+    width: 100%;
+    margin: 2%;
+  }
+
+  .bio--details-header, .bio--details-header2, .bio--details-header3 {
+    font-size: 30px;
+    letter-spacing: .5rem;
+    text-align: center;
+  }
+
+  .bio--details-header3 {
+    margin: 0 0 10px 0;
+  }
+
+  .bio--about-me-circle {
+    display: none;
+  }
+
+  .bio--details-bar, .bio--details-bar2 {
+    height: 2px;
+    width: 90%;
+    margin: 0 5% 2% 5%;
+  }
+
+  .bio--details-basic {
+    font-size: 14px;
+    text-align: center;
+    text-indent: 0px;
+    width: 90%;
+    margin: 0 5%;
+  }
+
+  .bio--details-education {
+    text-align: center;
+    font-size: 14px;
+    width: 90%;
+    margin: 0 5% 1rem 5%;
+    list-style-type: none;
+  }
+
+  .bio--details-job {
+    font-size: 14px;
+    width: 90%;
+    margin: 0 5% 1rem 5%;
+    text-align: center;
+    list-style-type: none;
+  }
+
+  ul {
+    padding-inline-start: 0px;
+  }
+
+  .moon--container {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .bio--details-header, .bio--details-header2, .bio--details-header3 {
+    font-size: 25px;
+  }
+
+  .bio--details-basic {
+    font-size: 12px;
+  }
+
+  .bio--details-education {
+    font-size: 12px;
+  }
+
+  .bio--details-job {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 530px) {
+  .bio--details-header, .bio--details-header2, .bio--details-header3 {
+    font-size: 15px;
+  }
+
+  .bio--details-header3 {
+    margin: 0 0 10px 0;
+  }
+
+  .bio--details-bar, .bio--details-bar2 {
+    height: 1px;
+  }
+
+  .bio--details-basic {
+    font-size: 9px;
+  }
+
+  .bio--details-education {
+    font-size: 9px;
+  }
+
+  .bio--details-job {
+    font-size: 9px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .bio--details-basic {
+    font-size: 8px;
+  }
+
+  .bio--details-education {
+    font-size: 8px;
+  }
+
+  .bio--details-job {
+    font-size: 8px;
   }
 }
