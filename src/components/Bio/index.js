@@ -20,7 +20,7 @@ class Bio extends Component {
         <div className="bio--page" id="bio--page">
           <img className="bio--pic" src={bioPic} alt="Michael Pfohl" />
           <div className="bio--details">
-            <h1 className="bio--details-header">·About Me</h1>
+            <h1 className="bio--details-header"><p className="bio--about-me-circle">·</p>About Me</h1>
             <div className="bio--details-bar"></div>
             <ul className="bio--details-basic">
               <p>Creative, efficient, and curious, I am completely enamored with the endless possibilities that development affords, and I am always looking for a new challenge. Coding gives me the opportunity to think in new ways and I am seeking a company that will harness my passion and grow my skills so that I can help solve unique and pressing problems.</p>
@@ -29,19 +29,20 @@ class Bio extends Component {
               <p>After seeing how much I loved the work and how well suited I was for it I decided to take the leap and attend Nashville Software School beginning in July of 2020. Without a doubt, that decision has had a bigger impact on my life than any other. While learning practical skills is a wonderful thing, the thing that I am most grateful for is the total perspective shift that coding has given me.
               At times, it seems like magic but when you peel back the layers you see that there are systems that interlace all of this knowledge, and yet that revelation does not make the process any less magical.</p>
             </ul>
-            <h1 className="bio--details-header2">Education·</h1>
+            <h1 className="bio--details-header2">Education<p className="bio--about-me-circle">·</p></h1>
             <div className="bio--details-bar2"></div>
             <ul className="bio--details-education">
               <li>
                 Belmont University · Bachelor of Business Administration -
                 Entrepreneurship · 2011 - 2015
               </li>
+              <li className="bio--education-separator">· · · · · · · · · </li>
               <li>
                 Nashville Software School · Full Stack Development Bootcamp ·
                 2020 - 2021
               </li>
             </ul>
-            <h1 className="bio--details-header3">·Job History</h1>
+            <h1 className="bio--details-header3"><p className="bio--about-me-circle">·</p>Job History</h1>
             <div className="bio--details-bar"></div>
             <ul className="bio--details-job">
               <li> Lyft · Help Systems Administrator · 8/2020 - Present</li>

@@ -3,9 +3,9 @@
 const projects = [
   {
     title: 'Gnophy',
-    screenshot: 'https://i.postimg.cc/029prDwf/Screen-Shot-2021-03-04-at-8-25-13-PM.png',
+    screenshot: 'https://i.postimg.cc/m220h97b/Screen-Shot-2021-03-25-at-9-39-36-AM.png',
     description:
-      'Named for the ancient Greek “Gnosis” (personal knowledge) and “Physis” (nature), Gnophy is an app built to encourage kids to learn about the nature around them via experience. The user can add Outings on which they will catalogue Sightings of the flora, fauna, and fungi that they encounter. From there, the user can input information about their own personal experience with what they encountered. Users can view all Sightings on a particular Outing or all Sightings as whole, as well as filter Sightings by type (flora, fauna, fungi). While adding Sightings, users will level up and unlock achievements as a way to motivate a continued journey of discovery.',
+      'Named for the ancient Greek “Gnosis” (personal knowledge) and “Physis” (nature), Gnophy is an app built to encourage kids to learn about the nature around them via experience. The user can add Outings on which they will catalogue Sightings of the flora, fauna, and fungi that they encounter.',
     technologiesUsed:
       'React / HTML / SCSS / Firebase / Version Control with Github',
     url: 'https://gnophy.netlify.app/',

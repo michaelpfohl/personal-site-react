@@ -21,7 +21,11 @@
 }
 
 .project--image {
-  width: 40%;
+  max-width: 40%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: cover;
   border-right: 2px solid #0d449b;
   margin: 0;
 }
@@ -50,4 +54,56 @@
 
 .project--details-link:hover {
   color: #0d449b;
+}
+
+@media only screen and (max-width: 1595px) {
+  .project--image {
+    max-width: 45%;
+  }
+}
+
+@media only screen and (max-width: 1220px) {
+  .project--image {
+    max-width: 100%;
+    border-bottom: 2px solid #0d449b;
+    border-right: none;
+  }
+  .project--card {
+    display: block;
+    text-align: center;
+  }
+  .project--details {
+    width: 90%;
+    margin: auto 5% auto 5%;
+  }
+  .project--details-title {
+    margin-top: 10px;
+  }
+  .project--card {
+    padding-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .project--details-title {
+    font-size: 30px;
+  }
+  .project--details {
+    font-size: 15px;
+  }
+  .project--details-technologies {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 530px) {
+  .project--details-title {
+    font-size: 25px;
+  }
+  .project--details {
+    font-size: 13px;
+  }
+  .project--details-technologies {
+    font-size: 13px;
+  }
 }
