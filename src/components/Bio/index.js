@@ -44,7 +44,7 @@ class Bio extends Component {
             <h1 className="bio--details-header3"><p className="bio--about-me-circle">·</p>Job History</h1>
             <div className="bio--details-bar"></div>
             <ul className="bio--details-job">
-              <li> National General Insurance · Software Engineer I · 5/2020 - Present</li>
+              <li> National General Insurance · Software Engineer I · 5/2021 - Present</li>
               <li> Lyft · Help Systems Administrator · 8/2020 - 4/2021</li>
               <li>
                 Lyft · Safety Policy & Community Compliance Specialist · 6/2019
