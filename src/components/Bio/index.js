@@ -32,23 +32,23 @@ class Bio extends Component {
             <h1 className="bio--details-header2">Education<p className="bio--about-me-circle">·</p></h1>
             <div className="bio--details-bar2"></div>
             <ul className="bio--details-education">
+            <li>
+                Nashville Software School · Full Stack Development Bootcamp ·
+                2020 - 2021
+              </li>
               <li>
                 Belmont University · Bachelor of Business Administration -
                 Entrepreneurship · 2011 - 2015
-              </li>
-              <li className="bio--education-separator">· · · · · · · · · </li>
-              <li>
-                Nashville Software School · Full Stack Development Bootcamp ·
-                2020 - 2021
               </li>
             </ul>
             <h1 className="bio--details-header3"><p className="bio--about-me-circle">·</p>Job History</h1>
             <div className="bio--details-bar"></div>
             <ul className="bio--details-job">
-              <li> Lyft · Help Systems Administrator · 8/2020 - Present</li>
+              <li> National General Insurance · Software Engineer I · 5/2020 - Present</li>
+              <li> Lyft · Help Systems Administrator · 8/2020 - 4/2021</li>
               <li>
                 Lyft · Safety Policy & Community Compliance Specialist · 6/2019
-                · 8/2020
+                - 8/2020
               </li>
               <li>Lyft · Critical Response Agent · 5/2018 - 6/2019</li>
               <li>More Than Me Touring · Booking Agent · 2/2016 - 5/2018</li>

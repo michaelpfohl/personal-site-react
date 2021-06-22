@@ -2,6 +2,17 @@
 /* eslint-disable global-require */
 const projects = [
   {
+    title: 'kanjo',
+    screenshot: 'https://user-images.githubusercontent.com/61816911/122857394-06960600-d2de-11eb-9cde-6267df1b7f80.gif',
+    description:
+      'A tool for self guided therapy, Kanjo is an interactive emotion tracking app that encourages self reflection. The user can create an entry and add emotions to their entry, answering questions about that emotion and their day. Each emotion has a generative art sketch created with P5.js. Additionally, each day has its own unique generative art sketch that is a composite of all of the emotions added for that day.',
+    technologiesUsed:
+      'React / Typescript / C# / .NET Core 3.1 /  SCSS / Firebase Authentication / Version Control with Github',
+    url: 'https://kanjo-ec13.netlify.app/',
+    githubUrl: 'https://github.com/michaelpfohl/ec13-capstone-kanjo',
+    hidden: false,
+  },
+  {
     title: 'Gnophy',
     screenshot: 'https://i.postimg.cc/m220h97b/Screen-Shot-2021-03-25-at-9-39-36-AM.png',
     description:
@@ -111,7 +122,7 @@ const projects = [
     available: true,
     url: 'https://bear-watcher-mp.netlify.app/',
     githubUrl: 'https://github.com/michaelpfohl/bear-watcher',
-    hidden: false,
+    hidden: true,
   },
   {
     title: 'Sorting Hat',
@@ -122,7 +133,7 @@ const projects = [
       'HTML / CSS / JavaScript / Bootstrap / Version Control with Github',
     url: 'https://sorting-hat-mp.netlify.app/#',
     githubUrl: 'https://github.com/michaelpfohl/sorting-hat',
-    hidden: false,
+    hidden: true,
   },
   {
     title: 'Color Flipper',
@@ -143,7 +154,7 @@ const projects = [
       'HTML / CSS / JavaScript / Bootstrap / Version Control with Github',
     url: 'https://bootstrap-pies.netlify.app/',
     githubUrl: 'https://github.com/michaelpfohl/event-listeners',
-    hidden: false,
+    hidden: true,
   },
   {
     title: 'Pet Adoption',
@@ -153,7 +164,7 @@ const projects = [
     technologiesUsed: 'HTML / CSS / JavaScript / Version Control with Github',
     url: 'https://pet-adoption-michael-pfohl.netlify.app/',
     githubUrl: 'https://github.com/michaelpfohl/pet-adoption',
-    hidden: false,
+    hidden: true,
   },
   {
     title: 'Monochromed Template',
