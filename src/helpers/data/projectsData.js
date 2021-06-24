@@ -13,6 +13,17 @@ const projects = [
     hidden: false,
   },
   {
+    title: 'Spinnovations',
+    screenshot: 'https://user-images.githubusercontent.com/61816911/123157069-b6c75400-d42f-11eb-9dd4-130fc2d4b079.gif',
+    description:
+      'An inventor driven marketplace where inventions can be bought and sold and you can spin the wheel for a chance at winning many fabulous inventions.',
+    technologiesUsed:
+      'React / Typescript / C# / .NET Core 3.1 /  SCSS / Firebase Authentication / Version Control with Github',
+    url: 'https://spinnovations.netlify.app/',
+    githubUrl: 'https://github.com/michaelpfohl/Spinnovations',
+    hidden: false,
+  },
+  {
     title: 'Gnophy',
     screenshot: 'https://i.postimg.cc/m220h97b/Screen-Shot-2021-03-25-at-9-39-36-AM.png',
     description:
